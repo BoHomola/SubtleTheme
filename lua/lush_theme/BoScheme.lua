@@ -67,7 +67,7 @@ local theme = lush(function(injected_functions)
     -- lCursor      { }, -- Character under the cursor when |language-mapping| is used (see 'guicursor')
     -- CursorIM     { }, -- Like Cursor, but used when in IME mode |CursorIM|
     -- CursorColumn { }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
-    CursorLine   { bg = "#242424" }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
+    CursorLine   { bg = "#424242" }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
     Directory    {fg="#9B9B9B"}, -- Directory names (and other special names in listings)
     -- DiffAdd      { }, -- Diff mode: Added line |diff.txt|
     -- DiffChange   { }, -- Diff mode: Changed line |diff.txt|
@@ -90,8 +90,8 @@ local theme = lush(function(injected_functions)
     -- MsgArea      { }, -- Area for messages and cmdline
     -- MsgSeparator { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
     -- MoreMsg      { }, -- |more-prompt|
-    NonText      { fg = "#000000"}, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
-    Normal       {fg="#d1d1d1", bg="#0f0f0f"}, -- Normal text
+    NonText      { fg = "#FFFFFF"}, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
+    -- Normal       {fg="#d1d1d1"},--, bg="#0f0f0f"}, -- Normal text
     NormalFloat  { bg="#2c2c2c"}, -- Normal text in floating windows.
     -- NormalNC     { }, -- normal text in non-current windows
     Pmenu        { }, -- Popup menu: Normal item.
